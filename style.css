@@ -20,7 +20,7 @@ html, body {
 
 /* Global */
 h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -155,8 +155,9 @@ main {
     color: var(--white);
 }
 
-.certificates {
-    text-align: center;
+.certificates > p {
+    margin: 10px 0;
+    /* text-align: center; */
 }
 
 /* Footer */
