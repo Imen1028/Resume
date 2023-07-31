@@ -130,7 +130,7 @@ main {
 }
 
 .description {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .description > img {
@@ -157,7 +157,6 @@ main {
 
 .certificates > p {
     margin: 10px 0;
-    /* text-align: center; */
 }
 
 /* Footer */
@@ -185,6 +184,11 @@ footer {
     
     footer {
         flex-direction: column;
+        gap: 25px;
+    }
+
+    #copyright {
+        order: 4;
     }
 }
 
