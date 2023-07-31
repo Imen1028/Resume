@@ -29,7 +29,10 @@ h2 {
 
 p {
     font-size: 20px;
-    font-weight: 400;
+}
+
+span {
+    font-size: 16px;
 }
 
 a {
@@ -174,6 +177,7 @@ footer {
 .icon i{
     color: var(--white);
     font-size: 32px;
+    line-height: 20px;
 }
 
 /* Media Query */
